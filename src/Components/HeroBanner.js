@@ -21,10 +21,10 @@ const HeroBanner = () => {
         mb="23px"
         mt="30px"
       >
-        Sweat, Smile <br /> and Repeat
+        Keep Your Squats Low, <br /> And Your Grades High
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={4}>
-        Check out the most effective exercises!
+        Check out these stellar exercises!
       </Typography>
       <Button
         variant="contained"

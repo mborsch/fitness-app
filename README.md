@@ -18,8 +18,9 @@ This is a horizontal scroll wheel which utilizes react-horizontal-scrolling-menu
 When clicked, exercises will be filtered by the option, and only display those exercises which satisfy the filter (and search if search is active).
 
 
-3. Ability to click on an exercise, see exercise details, find example videos for the exercise,
- and find similar exercises grouped by muscle group and equipment:
+3. Ability to click on an exercise, see exercise details, find example videos for the exercise, and find similar exercises grouped by muscle group and equipment:
+ 
+ 
 ![exercisedetails](https://user-images.githubusercontent.com/99302602/184575290-9bad1403-8c6e-4d94-897d-802b7287a30e.png)
 
 When a user clicks on an exercise card, they are linked to '/exercise/:exerciseId'. Utilizing React State and Effect Hooks, as well as Params, API calls are made to

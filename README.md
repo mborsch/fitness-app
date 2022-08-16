@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+Live App: https://icofitness.netlify.app/
+
+This app was built using React, RapidAPI, MaterialUI, and deployed with Netlify.
+
+Features:
+1. Ability to search for exercises:
+![searchExercises](https://user-images.githubusercontent.com/99302602/184575152-c0f264cc-e340-43e8-a151-38680166aa39.png)
+
+Utilizing the React State Hook and an async search function, users are able to search and find exercises based on exercise name, target muscle, equipment, or body
+part. Each returned exercise will display in cards up to 9 per page, which include a gif of the exercise movement, the target body part, and the target muscle. The
+cards are clickable, allowing the user to click on an exercise to view more details. 
+
+
+2. Ability to filter exercises by muscle group:
+![musclefilter](https://user-images.githubusercontent.com/99302602/184575228-5623386b-e98e-4619-8ead-edf8b83e1107.png)
+
+This is a horizontal scroll wheel which utilizes react-horizontal-scrolling-menu. The options are displayed as cards, with icons for each filtering option. 
+When clicked, exercises will be filtered by the option, and only display those exercises which satisfy the filter (and search if search is active).
+
+
+3. Ability to click on an exercise, see exercise details, find example videos for the exercise, and find similar exercises grouped by muscle group and equipment:
+ 
+ 
+![exercisedetails](https://user-images.githubusercontent.com/99302602/184575290-9bad1403-8c6e-4d94-897d-802b7287a30e.png)
+
+When a user clicks on an exercise card, they are linked to '/exercise/:exerciseId'. Utilizing React State and Effect Hooks, as well as Params, API calls are made to
+load exercise data, related video data, and similar exercises data. 
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
